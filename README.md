@@ -20,4 +20,15 @@ Access Key \ Secret Key
 ```
 
 
+### Run Terraform :
+```
+terraform init -upgrade
+terraform plan
+terraform apply -auto-approve
+```
+
+### If you want to destroy everything :
+```
+terraform destroy -auto-approve
+```
 
